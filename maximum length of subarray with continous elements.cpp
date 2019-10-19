@@ -1,6 +1,6 @@
 /*Given an array of distinct integers, find length of the longest subarray which contains numbers that can be arranged in a continuous sequence also find the starting index of longest subarray .
 
-For example
+For example :
 10 11 12 15 16 18 20 21 22 23
 
 Length of longest contigous subarray is 4 
