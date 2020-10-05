@@ -9,21 +9,19 @@ Index is 6*/
 
 #include<bits/stdc++.h>
 using namespace std;
-int main()
-
-{
+int main(){
 	int n;
 	cout<<"Enter size of array";
 	cin>>n;
-vector<int> a;
-cout<<"Enter elements of array";
+	vector<int> a;
+	cout<<"Enter elements of array";
+	
 	for(int i=0;i<n;i++){
 	int x;	
 	cin>>x;
 	a.push_back(x);
 	}
-
-
+	
 	int start=0;
 	vector<int>p;
 	vector<int>loc;
@@ -31,13 +29,12 @@ cout<<"Enter elements of array";
 	int j=0;
 	
 	for(int i=0;i<n;i++){
-	
 		p.push_back(INT_MIN);
 		loc.push_back(-1);
 	
-	while(a[i]+1==a[i+1])
-	{   if(mlen==1)
-	     loc[j]=i;
+	while(a[i]+1==a[i+1]){
+		if(mlen==1)
+			loc[j]=i;
 	
 		mlen++;
 		p[j]=mlen;
